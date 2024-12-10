@@ -16,7 +16,7 @@ public class Constants {
     public static String USER_ALREADY_EXISTS = "There's already an account associated with the email ID. Please login!";
     public static String USER_REGISTER_SUCCESS = "Email ID registered successfully!";
     public static String EMAIL_NOT_VALID = "Email ID is not valid.";
-    public static String LOGIN_FAILED_PASSWORD = "User login failed, invalid password";
+    public static String LOGIN_FAILED_PASSWORD = "Invalid Password. Please try again!";
     public static final String LOGIN_SUCCESS = "User login successful";
     public static String INPUT_VALIDATION_FAILED = "One or more input validation has failed";
     public static String GENERIC_ERROR = "Something went wrong. Please try again later!";
