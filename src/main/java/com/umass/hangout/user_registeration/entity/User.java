@@ -1,6 +1,6 @@
 package com.umass.hangout.user_registeration.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Data;
 
 @Data

@@ -2,7 +2,7 @@ package com.umass.hangout.user_registeration.dto;
 
 import com.umass.hangout.user_registeration.entity.User;
 import com.umass.hangout.user_registeration.entity.UserProfile;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 public class UserProfileSuccessResponse {
 

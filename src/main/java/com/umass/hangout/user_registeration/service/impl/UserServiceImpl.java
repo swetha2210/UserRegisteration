@@ -11,7 +11,7 @@ import com.umass.hangout.user_registeration.repository.UserRepository;
 import com.umass.hangout.user_registeration.service.UserService;
 import com.umass.hangout.user_registeration.constants.Constants;
 import com.umass.hangout.user_registeration.dto.ErrorResponse;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -25,7 +25,6 @@ public class UserServiceImpl implements UserService {
     private UserRepository userRepository;
     @Autowired
     private UserProfileRepository userProfileRepository;
-
 
     @Transactional
     public User createUser(String email, String password) {
